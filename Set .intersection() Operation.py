@@ -1,0 +1,6 @@
+e=int(input())
+Eset=set(map(int,input().split()))
+f=int(input())
+Fset=set(map(int,input().split()))
+T=Eset.intersection(Fset)
+print(len(T))
